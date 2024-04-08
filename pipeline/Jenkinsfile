@@ -5,9 +5,9 @@ pipeline {
     stages{
         stage('test library'){
             steps{
-                sample('Ithome')
-                sample('Jenkins')
-                sample('Ben')            
+                test('Ithome')
+                test('Jenkins')
+                test('Ben')            
             }
         }
     }

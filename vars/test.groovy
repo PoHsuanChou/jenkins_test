@@ -1,4 +1,4 @@
-def sample(String executor){
+def call(String executor){
     script {
         if ( executor == "Ithome" ){
             echo "Hi Ben"
