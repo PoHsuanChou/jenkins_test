@@ -1,4 +1,4 @@
-@Library('test_groovy_library') _
+@Library('shared-library') _
 // 範例 Jenkinsfile
 pipeline {
     agent any
