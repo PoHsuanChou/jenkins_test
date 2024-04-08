@@ -1,3 +1,4 @@
+@Library('test_groovy_library') _
 // 範例 Jenkinsfile
 pipeline {
     agent any
