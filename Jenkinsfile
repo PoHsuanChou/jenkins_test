@@ -1,3 +1,4 @@
+@Library('shared-library') _
 pipeline {
     agent any
 
@@ -5,6 +6,7 @@ pipeline {
         stage('Helo'){
             steps{
                 echo "Hello"
+                greetExecutor('Ithome')
             }
         }
         stage('cat README'){
