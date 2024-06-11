@@ -1,11 +1,11 @@
 def call(String executor){
     script {
         if ( executor == "Ithome" ){
-            echo "Hi Ben"
+            echo "Hi Ben dev"
         } else if (executor == "Jenkins" ){
-            echo "Hi Jenkins"
+            echo "Hi Jenkins dev"
         } else {
-            echo "unrecognizable"
+            echo "unrecognizable dev"
         }
     }
 }
