@@ -7,7 +7,7 @@ pipeline {
             steps {
                 script {
                     echo "Hello"
-                    greetExecutor('Ithome')  // 調用共享庫中的函數
+                    test('Ithome')  // 調用共享庫中的函數
                 }
             }
         }
