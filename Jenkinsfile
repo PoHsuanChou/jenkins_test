@@ -6,7 +6,7 @@ pipeline {
         stage('Helo'){
             steps{
                 echo "Hello"
-                greetExecutor('Ithome')
+                test('Ithome')
             }
         }
         stage('cat README'){
